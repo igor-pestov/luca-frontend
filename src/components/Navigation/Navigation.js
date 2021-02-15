@@ -59,7 +59,6 @@ const Navigation = () => {
                         <img src={lucaLogo} />
                     </a>
                 </div>
-                <Router>
                 <ul className="menu">
                     {elemetsMenu.map(item => {
                         return (
@@ -72,7 +71,6 @@ const Navigation = () => {
                         )
                     })}
                 </ul>
-                </Router>
             </div>
         </>
     )
