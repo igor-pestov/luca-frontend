@@ -15,6 +15,8 @@
 
     .menu {
         padding-left: 24px;
+        display: inline-flex;
+        flex-direction: column;
 
         .element {
             height: 40px;
@@ -25,7 +27,7 @@
             a {
                 display: flex;
                 align-items: center;
-                margin: 0 16px 0 0;
+                padding: 0 16px 0 0;
 
                 span {
                     order: 2;
@@ -39,8 +41,10 @@
         }
 
         .active {
-            background-color: #edeeff;
-            border-radius: 48px;
+            a {
+                background-color: #edeeff;
+                border-radius: 48px;
+            }
 
             span {
                 font-weight: 600;
