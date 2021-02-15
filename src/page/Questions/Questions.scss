@@ -1,0 +1,17 @@
+.Questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .questions-topick {
+    display: flex;
+    width: 704px;
+    height: 146px;
+    .questions-topick-head {
+      width: 100%;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
