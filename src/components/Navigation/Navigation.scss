@@ -1,0 +1,51 @@
+.Navigation {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+    .logo {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 24px;
+    }
+
+    .menu {
+        padding-left: 24px;
+
+        .element {
+            height: 40px;
+            list-style-type: none;
+            margin: 18px 0;
+            display: inline-flex;
+
+            a {
+                display: flex;
+                align-items: center;
+                margin: 0 16px 0 0;
+
+                span {
+                    order: 2;
+                    flex-grow: 0;
+                }
+
+                img {
+                    margin: 0 8px;
+                }
+            }
+        }
+
+        .active {
+            background-color: #edeeff;
+            border-radius: 48px;
+
+            span {
+                font-weight: 600;
+                color: #3843d0;
+            }
+        }
+    }
+}
