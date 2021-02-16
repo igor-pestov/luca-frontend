@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button, Input } from "antd";
 import { Link } from "react-router-dom";
 import api from "../../../api/api";
+import icClose from "../../../assets/ic_close.svg"
 import "./AddQuestion.scss";
 const AddQuetion = () => {
   const { TextArea } = Input;
@@ -29,7 +30,8 @@ const AddQuetion = () => {
             type="default"
             to="/comunidad"
           >
-            CANCELAR
+            <span>CANCELAR</span>
+            <img className='question-mobile-close' src={icClose} />
           </Link>
         </div>
         <label className="text question-label">Título de publicación</label>

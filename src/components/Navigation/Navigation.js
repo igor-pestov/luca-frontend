@@ -48,12 +48,12 @@ const Navigation = () => {
   return (
     <>
       <div className="Navigation">
-        <div className="logo">
+        <div className="navigation-logo">
           <a href="/">
             <img src={lucaLogo} />
           </a>
         </div>
-        <ul className="menu">
+        <ul className="navigation-menu">
           {elemetsMenu.map((item) => {
             return (
               <Element

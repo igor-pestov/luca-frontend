@@ -2,6 +2,10 @@
 #root {
   background-color: #f1f2f8;
   height: 100vh;
+
+  @media (max-width: 425px) and (min-width: 320px)  {
+    background-color: #fff;
+  }
 }
 
 .App {

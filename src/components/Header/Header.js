@@ -5,6 +5,7 @@ import localPolice from "../../assets/local_police.svg"
 import localFireDepartment from "../../assets/local_fire_department.svg"
 import localFlorist from "../../assets/local_florist.svg"
 import icBell from "../../assets/ic_bell.svg";
+import lucaLogo from "../../assets/luca_logo_color.svg";
 import property from "../../assets/property.svg";
 import 'antd/dist/antd.css'
 import './Header.scss'
@@ -16,6 +17,11 @@ const Header = () => {
     return (
         <>
             <div className="Header">
+                <div className="header-logo">
+                    <a href="/">
+                        <img src={lucaLogo} />
+                    </a>
+                </div>
                 <div className="header-search">
                     <Select className="header-select text" defaultValue="Explorar" style={{ width: 100 }}>
                         <Option value="Explorar">Explorar</Option>

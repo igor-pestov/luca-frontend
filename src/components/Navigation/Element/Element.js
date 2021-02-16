@@ -6,7 +6,7 @@ import {
 const Element = ({ title, icon, link }) => {
 
     return (
-        <li className='element' >
+        <li className='navigation-element' >
             <NavLink to={`/${link}`}>
                 <img src={icon} />
                 <span className="text">{title}</span>
