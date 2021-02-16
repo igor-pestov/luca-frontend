@@ -42,7 +42,6 @@ const Navigation = () => {
             icon: icCommunity,
             title: 'Comunidad',
             link: 'comunidad',
-            active: true,
         },
         {
             icon: icHelp,
@@ -65,7 +64,6 @@ const Navigation = () => {
                             <Element
                                 title={item.title}
                                 icon={item.icon}
-                                active={item.active}
                                 link={item.link}
                             />
                         )

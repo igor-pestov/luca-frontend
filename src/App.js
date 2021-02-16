@@ -8,6 +8,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Header from "./components/Header/Header";
 import "./App.scss";
 import Quetions from "./page/Questions/Questions";
+import AddQuestion from "./page/Questions/AddQuestion/AddQuestion"
 
 function App() {
   return (
@@ -16,13 +17,7 @@ function App() {
       <div className="contetnt">
         <Header />
           <Switch>
-            <Route exact path="/comunidad" component={Quetions}>
-            </Route>
-            <Route  path="/" >
-              <h1>Page mi plan de estudios</h1>
-            </Route>
-            <Route path="/quizzes" >
-              <h1>Page quizzes</h1>
+            <Route exact path="/comunidad" component={AddQuestion}>
             </Route>
           </Switch>
       </div>

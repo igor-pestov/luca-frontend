@@ -1,0 +1,18 @@
+.AddQuestion {
+    width: 600px;
+    margin: 0 auto;
+    .question-label {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #565656;
+    }
+
+    .question-textarea {
+        background: #ffffff;
+        border: 2px solid rgba(38, 38, 38, 0.25);
+        box-sizing: border-box;
+        border-radius: 12px;
+        padding: 15px 48px 15px 16px;
+    }
+}

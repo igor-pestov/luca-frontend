@@ -1,19 +1,16 @@
 import React from "react"
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
+    NavLink
 } from "react-router-dom";
 
-const Element = ({ title, icon, link, active = false }) => {
+const Element = ({ title, icon, link }) => {
 
     return (
-        <li className={`element ${active ? 'active' : ''}`} >
-            <Link to={`/${link}`}>
+        <li className='element' >
+            <NavLink to={`/${link}`}>
                 <img src={icon} />
                 <span className="text">{title}</span>
-            </Link>
+            </NavLink>
         </li>
     )
 }
