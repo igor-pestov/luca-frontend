@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+.Card {
+  padding: 24px 24px 18px 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 704px;
+  height: 128px;
+  .block-avatar-title {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    .avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+    }
+    .title-publication {
+      width: 80%;
+      margin-left: 32px;
+      .title {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #4f4f4f;
+      }
+      .publication {
+        margin-top: 8px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        color: #828282;
+        opacity: 0.7;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .like {
+        margin-top: 18px;
+        display: flex;
+        img {
+          margin-right: 20px;
+        }
+        .like-text {
+          margin-left: 14px;
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 24px;
+          color: #828282;
+          .subject {
+            color: #3843d0;
+          }
+        }
+      }
+    }
+  }
+  .end {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    .comments {
+      display: flex;
+      flex-direction: row;
+      .comments-count {
+        margin-left: 7px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #9a9cb5;
+      }
+    }
+    .share-favorite {
+      img {
+        margin-left: 26px;
+      }
+    }
+  }
+}

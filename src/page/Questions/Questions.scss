@@ -2,8 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+   .add-new-question{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    width: 177px;
+    height: 36px;
+    background: #3843d0;
+    border: 3px solid #212b80;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 0px #212b80;
+    border-radius: 10px;
+    color: #ffffff
+   }
   .questions-topick {
     display: flex;
+    flex-direction: column;
     width: 704px;
     height: 146px;
     .questions-topick-head {
@@ -12,6 +26,41 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+    }
+    .questions-topick-footer {
+      .ant-tabs-tabpane {
+        overflow-y: auto;
+        height: 75vh;
+        &::-webkit-scrollbar {
+          width: 0;
+        }
+      }
+      display: flex;
+      .ant-tabs-nav {
+        margin: 0;
+        .ant-tabs-ink-bar {
+          background: #3843d0;
+        }
+      }
+      .ant-tabs-tab {
+        margin-top: 48px;
+        padding: 8px 16px;
+      }
+      .ant-tabs-tab-btn {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #9a9cb5;
+      }
+      .ant-tabs-tab-active {
+        .ant-tabs-tab-btn {
+          color: #3843d0;
+        }
+      }
     }
   }
 }
