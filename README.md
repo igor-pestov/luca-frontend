@@ -1,2 +1,14 @@
-Hello, if you want to start this project, then you should write the command "yarn install" and then the command "yarn start". 
-Or you can use the npm package: "npm install" and "npm start".
+## Build Setup
+
+``` bash
+# install dependencies
+$ yarn install
+or
+$ npm install
+# serve with hot reload at localhost:3000
+$ yarn start
+or
+$ npm start
+
+to use project please start node.js server - 
+```
