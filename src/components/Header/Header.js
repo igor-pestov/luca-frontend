@@ -6,14 +6,13 @@ import localFireDepartment from "../../assets/local_fire_department.svg"
 import localFlorist from "../../assets/local_florist.svg"
 import icBell from "../../assets/ic_bell.svg";
 import lucaLogo from "../../assets/luca_logo_color.svg";
-import property from "../../assets/property.svg";
 import 'antd/dist/antd.css'
 import './Header.scss'
 
 const { Option } = Select;
 
 const Header = () => {
-
+    const user = JSON.parse(localStorage.getItem("user"));
     return (
         <>
             <div className="Header">
@@ -35,7 +34,7 @@ const Header = () => {
                 </div>
                 <div className="header-profile">
                     <img src={icBell} />
-                    <img src={property} />
+                    <img className="avatar" src={user.avatar} />
                 </div>
             </div>
         </>

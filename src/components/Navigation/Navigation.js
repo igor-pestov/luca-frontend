@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import Element from "./Element/Element";
 
 import lucaLogo from "../../assets/luca_logo_color.svg";

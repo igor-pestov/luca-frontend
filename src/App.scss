@@ -3,7 +3,7 @@
   background-color: #f1f2f8;
   height: 100vh;
 
-  @media (max-width: 425px) and (min-width: 320px)  {
+  @media (max-width: 900px) and (min-width: 320px)  {
     background-color: #fff;
   }
 }
@@ -62,4 +62,10 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
