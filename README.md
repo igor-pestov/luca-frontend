@@ -10,5 +10,5 @@ $ yarn start
 or
 $ npm start
 
-to use project please start node.js server - 
+to use project please start node.js server - https://github.com/igor-pestov/luca-backend
 ```
